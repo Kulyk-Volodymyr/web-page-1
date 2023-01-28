@@ -1,0 +1,25 @@
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    /*992--------- HEADER START ------------*/
+    nav { padding: 0 8%; }
+
+    #section-header div{ flex: 50%; }
+    /*992--------- HEADER END ----------1199*/
+    /*992--------- MAIN START ----------1199*/
+    main { flex-direction: column; }
+
+    #section-1-2 { padding: 30px; }
+
+    .section-1-card { flex: 33%; }
+
+    #section-2-2 { padding: 0 30px; }
+
+    input[id^="slide-dot"] { display: none; }
+
+    .section-2-card { flex: 50%; }
+    /*992--------- MAIN END ------------1199*/
+    /*992--------- FOOTER START --------1199*/
+    #section-footer { width: 900px; }
+
+    #section-footer-2 { flex-wrap: nowrap; }
+    /*992--------- FOOTER END ----------1199*/
+}

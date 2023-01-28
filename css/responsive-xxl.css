@@ -1,0 +1,25 @@
+@media screen and (min-width: 1400px) {
+    /*1400-------- HEADER START ------------*/
+    nav { padding: 0 10%; }
+
+    #section-header div{ flex: 50%; }
+    /*1400-------- HEADER END --------------*/
+    /*1400-------- MAIN START --------------*/
+    main { flex-direction: row; }
+
+    #section-1-2 { padding: 30px; }
+
+    .section-1-card { flex: 25%; }
+
+    #section-2-2 { flex-direction: column; }
+
+    input[id^="slide-dot"] { display: none; }
+
+    .section-2-card-container { width: 220px; }
+    /*1400-------- MAIN END ----------------*/
+    /*1400-------- FOOTER START ------------*/
+    #section-footer { width: 900px; }
+
+    #section-footer-2 { flex-wrap: nowrap; }
+    /*1400-------- FOOTER END --------------*/
+}
